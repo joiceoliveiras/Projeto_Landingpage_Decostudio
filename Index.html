@@ -5,10 +5,134 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Decostudio</title>
+  <!--CSS-->
+  <link rel="stylesheet" href="/css/style.css">
+  <!--Fonte-->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 
 <body>
-
+<header id="event-description">
+  <div id="disclaimer">
+    <h2>Decostudio</h2>
+    <p class="about-event">
+      conheça o mundo do design de interiores. Não perca a chance de fazer parte do nosso próximo evento
+    </p>
+    <p>Data do evento:</p>
+    <p class="event-date">Sábado, 20 de Fevereiro, a Partir das 15h</p>
+  </div>
+  <div id="subscription-form">
+    <p>Preencha o formulário para receber os detalhes do evento</p>
+    <form>
+      <div class="form-group">
+        <label for="name">Nome</label>
+        <input type="text" name="name" placeholder="Digite seu nome">
+      </div>
+       <div class="form-group">
+         <label for="Email">Email</label>
+         <input type="email" name="email" placeholder="Digite seu e-mail">
+       </div>
+        <div class="form-group">
+          <label for="phone">Nome</label>
+          <input type="text" name="phone" placeholder="Número de Whatsapp">
+        </div>
+        <div class="form-group">
+          <label for="interest">Principal interesse</label>
+          <select name="interest">
+            <option value="" disabled selected>Selecione</option>
+            <option value="apartment">Apartamentos</option>
+            <option value="house">Casas</option>
+            <option value="garden">Jardins</option>
+            <option value="other">Outros</option>
+          </select>
+          
+        </div>
+        <input type="submit" class="btn" value="Quero me inscrever">
+    </form>
+    
+  </div>
+</header>
+<section id="key-benefits">
+  <h2>O que você vai aprender:</h2>
+  <div class="benefits">
+    <div class="benefit">
+      <div id="benefit-1" class="benefit-img"></div>
+      <p>Aprenda sobre os tópicos e conceitos de design mais recentes.</p>
+    </div>
+        <div class="benefit">
+          <div id="benefit-2" class="benefit-img"></div>
+          <p> áreas de demonstração ao vivo e muito mais.</p>
+        </div>
+            <div class="benefit">
+              <div id="benefit-3" class="benefit-img"></div>
+              <p>inspire-se com a infinidade de belos produtos em exibição.</p>
+            </div>
+  </div>
+  
+</section>
+<section id="location">
+  <div id="adress">
+    <i class="bi bi-geo-alt"></i>
+    <div id="adress-details">
+      <p>Rua: Estados Unidos</p>
+      <p>Bairro: Comércio</p>
+      <p>Abertura: 15h</p>
+    </div>
+  </div>
+  <div id="about-location">
+    <h3>Local de destaque</h3>
+    <p>É o lugar perfeito para encontrar novas marcas de design com qualidade.</p>
+  </div>
+</section>
+<section id="details">
+  <div class="detail" id="detail-1">
+    <img src="/img/pexels-pixabay-280232.jpg" alt="sala de jantar decorada em tons claros">
+    <div class="detail-description">
+      <h3>Ambientes que você vai aprender a decorar</h3>
+      
+    </div>
+  </div>
+   <div class="detail" id="detail-2">
+     <div class="detail-description">
+       <h3>Detalhes </h3>
+       <ul>
+         <li>Posicionamento</li>
+         <li>Aproveitamento de espaço </li>
+         <li>Combinação de cores</li>
+         <li>Organização</li>
+         <li>E muito mais...</li>
+       </ul>
+     </div>
+     <img src="/img/pexels-dmitry-zvolskiy-2062426.jpg" alt="cozinha decorada">
+   </div>
+   <div class="detail" id="detail-3">
+     <img src="/img/pexels-lisa-fotios-1090638.jpg" alt="Parede decorada">
+     <div class="detail-description">
+       <h3>Objetos </h3>
+       <ul>
+         <li>Cadeiras</li>
+         <li>Mesas</li>
+         <li>Espelhos</li>
+         <li>Plantas</li>
+         <li>Cortinas</li>
+         <li>E muito mais...</li>
+       </ul>
+     </div>
+     
+   </div>
+</section>
+<section id="cta">
+  <h3>Gostou? Então, inscreva-se:</h3>
+  <button class="btn">Solicitar inscrição</button>
+</section>
+<footer id="footer">
+  <h3>Decostudio</h3>
+  <p>Decoração de interiores</p>
+  <p><span>Entre em contato:</span> a@decostudio.com.br</p>
+  <p><span>Ou pelo telefone</span> (55)00000-00000</p>
+</footer>
 </body>
 
 </html>
