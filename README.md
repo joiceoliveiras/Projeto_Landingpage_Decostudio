@@ -1,6 +1,5 @@
 <h1 align: "center">
 <img src="/img-site/20230114_013656-removebg-preview.png"</>
-<p>Design de interiores</p>
 </h1>
 
 
