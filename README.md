@@ -17,3 +17,6 @@
 # Tecnologias utilizadas
 - HTML
 - CSS
+
+## License
+This project is under the MIT license. See the file [License](https://github.com/joiceoliveiras/Projeto_Landingpage_Decostudio/blob/master/LICENSE) for more details
